@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("/login2")
 public class LoginController  {
     @RequestMapping("/login21")
-
     public String login21( HttpServletRequest request){
        System.out.println(request);
        return "home";

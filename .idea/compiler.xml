@@ -9,8 +9,10 @@
         <module name="springsecurity" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="springsecurity" target="1.8" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springsecurity" options="-parameters" />
+    </option>
   </component>
 </project>
